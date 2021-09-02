@@ -19,7 +19,7 @@ class TestPurchaser(TestCase):
             {'pair': 'pair1', 'amount': 200},
         ]
 
-        #
+        # Assert that the total purchase amount is correct
         assert self.purchaser.calculate_purchase_amount(purchases) == 300
 
     def test_make_purchases_no_purchases(self):

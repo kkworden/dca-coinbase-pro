@@ -33,7 +33,7 @@ class Config:
             print('Running in PRODUCTION mode. Credentials are pulled from AWS Secrets Manager.')
         else:  # Not production. Read from local files.
             cfg, credentials = _local_configs()
-            print('Initializing client for sandbox mode. Please set PRODUCTION=1 for real clients.')
+            print('Running locally. Credentials are pulled from config/local_creds.json')
 
         # Get some configuration values
         self.is_deposit_only: bool = cfg['isDepositOnly']
