@@ -14,7 +14,7 @@ resource "aws_secretsmanager_secret" "credentials" {
 
 resource "aws_secretsmanager_secret_version" "credentials_secret" {
   secret_id     = aws_secretsmanager_secret.credentials.id
-  secret_string = file("${path.module}/../config/prod_creds.json")
+  secret_string = file("${local.config_dir}/prod_creds.json")
 }
 
 resource "aws_secretsmanager_secret" "config" {
@@ -24,5 +24,5 @@ resource "aws_secretsmanager_secret" "config" {
 
 resource "aws_secretsmanager_secret_version" "config_secret" {
   secret_id     = aws_secretsmanager_secret.config.id
-  secret_string = file("${path.module}/../config/prod.json")
+  secret_string = file("${local.config_dir}/prod_config.json")
 }

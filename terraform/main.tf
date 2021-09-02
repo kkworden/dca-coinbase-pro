@@ -24,6 +24,7 @@ provider "aws" {
 locals {
   project_root = "${path.module}/.."
   out_dir = "${local.project_root}/out"
+  config_dir = "${local.project_root}/config"
 }
 
 # Define a Lambda, using the S3 object setup in code_assets.tf, and the IAM role setup in execution_role.tf
