@@ -1,0 +1,8 @@
+{
+  "__comment": "This file is automatically uploaded to AWS Secrets Manager when you deploy with Terraform.",
+
+  "key": "Your Coinbase Pro key",
+  "secret": "Your Coinbase Pro secret",
+  "passphrase": "Your Coinbase Pro passphrase",
+  "apiUrl": "https://api.pro.coinbase.com"
+}

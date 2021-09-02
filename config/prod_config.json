@@ -1,0 +1,16 @@
+{
+  "__comment": "This file is automatically uploaded to AWS Secrets Manager when you deploy with Terraform.",
+
+  "isDepositOnly": false,
+  "depositAmount": 1250.00,
+  "purchases": [
+    {
+      "pair": "ADA-USD",
+      "amount": 1000.00
+    },
+    {
+      "pair": "ETH-USD",
+      "amount": 250.00
+    }
+  ]
+}

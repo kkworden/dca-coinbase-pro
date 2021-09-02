@@ -1,0 +1,8 @@
+{
+  "__comment": "This file contains Coinbase Pro credentials for local executions.",
+
+  "key": "Your Coinbase Pro key",
+  "secret": "Your Coinbase Pro secret",
+  "passphrase": "Your Coinbase Pro passphrase",
+  "apiUrl": "https://api-public.sandbox.pro.coinbase.com"
+}

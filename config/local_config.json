@@ -1,0 +1,14 @@
+{
+  "isDepositOnly": true,
+  "depositAmount": 1250.00,
+  "purchases": [
+    {
+      "pair": "ADA-USD",
+      "amount": 1000.00
+    },
+    {
+      "pair": "ETH-USD",
+      "amount": 250.00
+    }
+  ]
+}
